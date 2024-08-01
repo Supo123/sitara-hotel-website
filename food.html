@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-items</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body{
+            width:100vw;
+            height: 100vh;
+            background-color: black;
+        }
+       .heading h1{
+        color:rgb(39, 135, 203);
+        font-size: 50px;
+       }
+       .heading{
+        display: flex;
+        justify-content: center;
+       }
+       .section{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        cursor: pointer;
+        gap:90px;
+        margin-top: 20px;
+        margin-left: 20px;
+       }
+       .section img{
+       width:300px;
+       border-radius: 10px 10px  0px 0px;
+
+       }
+       ::-webkit-scrollbar {
+  width: 0px; /* width of the scrollbar */
+}
+       .img1{
+        width:300px;
+        height: 299px;
+        border: 1px solid grey;
+        box-shadow: 2px 3px 4px grey;
+        box-shadow: 2px 3px 4px grey;
+        border-radius: 10px;
+        background-color: grey;
+       
+       }
+       .img1:hover{
+       
+        box-shadow: none;
+       }
+       .book-now{
+  display:none;
+  
+ 
+
+}
+       @media(max-width:768px){
+        .section{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,1fr);
+        cursor: pointer;
+        gap:90px;
+        margin-top: 20px;
+        margin-left: 30px;
+       }
+       .heading h1{
+        color:rgb(39, 135, 203);
+        font-size: 30px;
+       }
+       .book-now button{
+    display:flex;
+   
+    background-color: #7e8ac5;
+   
+    width:100%;
+    height:30px;
+  }
+
+  .book-now{
+    display:flex;
+    /* position:sticky; */
+    /* top:30%; */
+    position: fixed;
+
+    bottom:0px;
+    background-color: #7e8ac5;
+    color: #ede8e8;
+    width:100%;
+    height:30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20;
+  }
+  .book-now a{
+    display:flex;
+    /* position:sticky;
+    bottom:0;
+    bottom:0; */
+    background-color: #7e8ac5;
+    color: #ede8e8;
+    width:100%;
+    height:30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+       }
+       .home a{
+        text-decoration: none;
+        font-size: 20px;
+        position: absolute;
+        top:3%;
+        left:80%;
+       }
+       .img1 p{
+        color: rgb(56, 98, 124);
+        font-size: 20px;
+        font-weight: bolder;
+        padding: 5px;
+       }
+       .img1 p,h3{
+       
+        padding: 5px;
+       }
+       /* #main{
+        height:100%;
+        width:100%;
+        background-color: black;
+       } */
+       #cursor{
+        height:20px;
+        width:25px;
+        background-color: blue;
+        border-radius: 50%;
+        position: fixed;
+       }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="cursor"></div>
+
+    </div>
+    <div class="container">
+        <div class="heading">
+        <h1>Food items</h1>
+        <div class="home"><a href="index.html">Home</a></div>
+        
+        </div>
+        <div class="section">
+            <div class="img1">
+                <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+        
+            </div>
+            <div  class="img1">
+                <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+            </div>
+            <div  class="img1">
+                <img src="https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+            </div>
+            <div  class="img1">
+                <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+            </div>
+            <div  class="img1">
+                <img src="https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+            </div>
+            <div class="img1">
+                <img src="https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+            </div>
+            <div class="img1">  <img src="https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+            </div>
+            <div  class="img1">
+                <img src="https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+            </div>
+            <div  class="img1"> <img src="https://images.pexels.com/photos/64208/pexels-photo-64208.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img">
+                <p>Book now</p>
+                <h3>12000/day</h3>
+                <p> ⭐⭐⭐⭐</p>
+            </div>
+        
+        </div>
+            </div>
+
+            <button class="book-now"><a href="booking.html">Book Now</a></button>
+
+
+
+
+
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+            </script>
+            <script type="text/javascript">
+const body = document.querySelector("body");
+const cursor = document.querySelector("#cursor");
+body.addEventListener("mousemove",(dets)=>{
+    gsap.to(cursor,{
+        x:dets.x,
+        y:dets.y,
+        duration:0.5
+    })
+   
+})
+            </script>
+</body>
+</html>

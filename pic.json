@@ -1,0 +1,89 @@
+[
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "body":"Perfect location, excellent service!"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "reprehenderit est deserunt velit ipsam",
+    "url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/771796",
+    "body":"Delicious breakfast, lots of variety."
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "officia porro iure quia iusto qui ipsa ut modi",
+    "url": "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/24f355",
+    "body":"Efficient check-in and check-out process."
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
+    "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/d32776",
+    "body":"Quiet atmosphere, ideal for relaxation."
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "natus nisi omnis corporis facere molestiae rerum in",
+    "url": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/f66b97",
+    "body":"Affordable rates for the quality offered."
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "accusamus ea aliquid et amet sequi nemo",
+    "url": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/56a8c2",
+    "body":"Central to attractions, easy to get around."
+  },
+  {
+    "albumId": 1,
+    "id": 7,
+    "title": "officia delectus consequatur vero aut veniam explicabo molestias",
+    "url": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc",
+    "body":"Would definitely stay here again!"
+  },
+  {
+    "albumId": 1,
+    "id": 8,
+    "title": "aut porro officiis laborum odit ea laudantium corporis",
+    "url": "https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/54176f",
+    "body":"Central to attractions, easy to get around."
+  },
+  {
+    "albumId": 1,
+    "id": 9,
+    "title": "qui eius qui autem sed",
+    "url": "https://images.pexels.com/photos/1090387/pexels-photo-1090387.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/51aa97",
+    "body":"Central to attractions, easy to get around."
+  },
+  {
+    "albumId": 1,
+    "id": 10,
+    "title": "beatae et provident et ut vel",
+    "url": "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/810b14",
+    "body":"Central to attractions, easy to get around."
+  },
+  {
+    "albumId": 1,
+    "id": 11,
+    "title": "nihil at amet non hic quia qui",
+    "url": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4",
+    "body":"Would definitely stay here again!"
+  }]
